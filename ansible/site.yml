@@ -5,4 +5,5 @@
   roles:
     - upgrade-packages
     - install-development-tools
+    - install-awscli
     - install-rust-and-cargo
