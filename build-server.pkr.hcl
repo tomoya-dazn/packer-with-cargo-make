@@ -57,4 +57,7 @@ build {
   sources = [
     "source.amazon-ebs.almalinux9"
   ]
+  provisioner "ansible" {
+    playbook_file = "./ansible/site.yml"
+  }
 }
